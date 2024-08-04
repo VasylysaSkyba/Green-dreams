@@ -1,0 +1,268 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* 
+.kaisei-decol-regular {
+  font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+.manrope-<uniquifier> {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.balsamiq-sans-regular {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #0C3E2E;
+font-size: 18px;
+font-weight: 500;
+line-height: 1.2;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
+
+.title{
+  font-weight: 600;
+font-size: 36px;
+margin-bottom: 50px;
+}
+
+.header {
+background-image: url(../images/header-bg.svg);
+background-repeat: no-repeat;
+background-position: top center;
+background-size: contain;
+margin-bottom: 150px;
+
+}
+
+.header__inner {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.header-top {
+  display: flex;
+  padding-top: 32px;
+  justify-content: space-between;
+}
+.menu__list {
+  display: flex;
+  gap: 0 30px;
+}
+
+.menu__link {
+text-transform: uppercase;
+font-size: 16px;
+
+}
+
+.phone {
+  color: #BB8A52;
+}
+
+.header-content__inner{
+  display: flex;
+  justify-content: space-between;
+  gap: 0 22px;
+  align-items: center;
+}
+.header-content__text{
+max-width: 510px;
+}
+
+.header-content__text span{
+  color: #CC2E2E;
+}
+.header-content__title{
+  font-weight: 600;
+  font-size: 48px;
+  margin: 20px 0 80px;
+  max-width: 428px;
+}
+
+.header-content__btn {
+background-color: #FFBA00;
+padding: 20px 38px;
+display: inline-block;
+font-style: 20px;
+margin-top: 50px;
+}
+
+.header__text {
+  font-size: 24px;
+  text-align: center;
+  padding: 25px 0;
+  
+}
+
+.about {
+  margin-bottom: 150px;
+}
+
+.about__inner{
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.about__inner-text{
+margin-bottom: 30px;
+max-width: 506px;
+}
+.about__inner-text span {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.about__inner-title {
+  font-weight: 600;
+font-size: 28px;
+margin-bottom: 30px;
+}
+
+.about__inner-list{
+  display: flex;
+  gap: 0 30px;
+  color: #BB8A52;
+  text-align: center;
+}
+
+.about__inner-list dt {
+  font-weight: 600;
+font-size: 48px;
+margin-bottom: 5px;
+}
+
+.why {
+  margin-bottom: 150px;
+}
+
+.why__text {
+  font-weight: 600;
+font-size: 28px;
+max-width: 583px;
+margin-bottom: 40px;
+}
+
+.why__inner {
+  display: flex;
+  align-items: center;
+  gap: 0 22px;
+}
+
+.why__inner-list {
+  list-style-type: none;
+  counter-reset: my-counter;
+  padding-left: 10px;
+ 
+}
+
+.why_inner-item::before {
+  content: counter(my-counter);
+  counter-increment: my-counter;
+  padding-right: 5px;
+}
+
+.why_inner-item {
+  font-weight: 600;
+font-size: 28px;
+}
+
+.why_inner-item + .why_inner-item {
+  margin-top: 50px;
+}
+
+.why_inner-item.pl--60{
+padding-left: 60px;
+}
+
+.why_inner-item.pl--90{
+  padding-left: 90px;
+}
+
+.projects {
+  margin-bottom: 110px;
+}
+.projects__text {
+  font-weight: 600;
+font-size: 28px;
+max-width: 593px;
+margin-bottom: 30px;
+}
+
+.projecrts__gallery {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.projecrts__gallery-text {
+  text-align: center;
+  padding: 20px 0;
+
+}
+
+.gallery--item {
+  grid-area: span 2;
+}
+
+.services__text {
+  max-width: 587px;
+  font-weight: 600;
+font-size: 28px;
+margin-bottom: 30px;
+}
+
+.services {
+  margin-bottom: 110px;
+  padding: 20px 0 40px;
+  background-color:rgba(109, 151, 115, 0.1); ;
+}
+
+.services__list {
+  padding: 0 25px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.services__item-text {
+  font-size: 24px;
+  padding-top: 20px;
+}
