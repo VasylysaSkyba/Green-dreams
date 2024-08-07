@@ -366,9 +366,11 @@ body {
   font-family: "Kaisei Decol", serif;
   color: rgba(109, 151, 115, 0.2);
   font-weight: 400;
-  letter-spacing: -12px;
+  letter-spacing: -7px;
   position: absolute;
   left: 0;
+  -webkit-text-stroke: 1px rgb(109, 151, 115);
+
 }
 
 .team {
