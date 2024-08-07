@@ -131,6 +131,13 @@ body {
   padding: 25px 0;
 }
 
+.main {
+  background-image: url(../images/decor/Group\ bg.png);
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  /* background-position: bottom center; */
+}
+
 .about {
   margin-bottom: 150px;
 }
