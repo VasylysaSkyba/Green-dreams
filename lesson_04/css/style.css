@@ -1,0 +1,111 @@
+/* Підключення шрифтів*/
+
+/*Google Fonts*/
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&display=swap'); */
+
+/* Google Fonts plugin */
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+
+/* Локальне підключення шрифтів */
+/* @import url("fonts.css"); */
+
+@import url("reset.css");
+
+.home-work {
+  font-family: "Work Sans", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  color: #8a2be2;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #66ff00;
+  text-decoration-style: dotted;
+  text-transform: uppercase;
+  text-shadow: -5px -5px 5px #c862e4;
+  letter-spacing: 15px;
+}
+.link {
+  font-size: 25px;
+  color: #0f8317;
+  text-decoration: underline;
+  text-decoration-color: #fc0fc0;
+  text-decoration-style: dashed;
+}
+.title {
+  color: #c41e3a;
+  text-align: right;
+  text-shadow: 2px 2px 1px #ff7f50;
+  letter-spacing: 10px;
+  font-size: 20px;
+}
+.text {
+  font-size: 18px;
+  font-style: normal;
+  color: #2a2ab2b3;
+  line-height: 1.4;
+  word-spacing: 6px;
+  white-space: normal;
+  text-transform: lowercase;
+}
+
+.title-portfolio {
+  font-family: "Work Sans", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.31;
+  color: #132238;
+  text-align: center;
+}
+
+.text-portfolio {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  color: #556070;
+}
+
+.title-presentation {
+  font-family: "DM Sans", sans-serif;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  color: #1e1b39;
+  text-align: center;
+}
+
+.text-presentation {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #474464;
+}
+
+.title-template {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: 1px;
+  color: #091133;
+  text-align: center;
+}
+
+.text-template {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.66;
+  color: #505f98;
+}
